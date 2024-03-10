@@ -1,0 +1,49 @@
+{
+    "projects": [
+        {
+            "key": 0,
+            "name": "Advice Ticket",
+            "tags": [
+                "web development",
+                "advice slip json api",
+                "goqr.me"
+            ],
+            "path": "advice-ticket",
+            "github_link": "https://github.com/Pratyush-Nirwan/AdviceTicket",
+            "demo_link": "https://pcoder.me/AdviceTicket"
+        },
+        {
+            "key": 1,
+            "name": "EncryptDecrypt",
+            "tags": [
+                "web development",
+                "cryptojs"
+            ],
+            "path": "encryptdecrypt",
+            "github_link": "https://github.com/Pratyush-Nirwan/EncryptDecrypt",
+            "demo_link": "https://pcoder.me/EncryptDecrypt"
+        },
+        {
+            "key": 2,
+            "name": "Weather Website",
+            "tags": [
+                "web development",
+                "open weather api"
+            ],
+            "path": "weather-website",
+            "github_link": "https://github.com/Pratyush-Nirwan/weather-website"
+        },
+        {
+            "key": 3,
+            "name": "Pcoder.me",
+            "tags": [
+                "web development",
+                "graphics design",
+                "portfolio",
+                "dev.to api"
+            ],
+            "path": "pcoder.me",
+            "github_link": "https://github.com/Pratyush-Nirwan/Pratyush-Nirwan.github.io"
+        }
+    ]
+}
