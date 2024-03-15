@@ -14,7 +14,7 @@
     padding: 20px;
     border-radius: 25px;
     display: flex;
-    width: 100%;
+    width: fit-content;
     justify-content: center;
     align-items: center;
     height: fit-content;
@@ -99,5 +99,58 @@
 
     50% {
         opacity: 0;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    #term-window {
+        height: 50%;
+        width: 80%;
+    }
+
+    #term-start {
+        font-size: .4em;
+    }
+
+    #term-photo {
+        height: 10em;
+        border-radius: 0;
+        border-bottom-right-radius: 20px;
+        border-bottom-left-radius: 20px;
+    }
+
+    #term {
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        height: 100%;
+        gap: 40px;
+    }
+
+    #term-text {
+        font-size: .8em;
+        text-align: center;
+    }
+
+    #term-dd {
+        font-size: .8em;
+        letter-spacing: 5px;
+    }
+
+    #term-btns {
+        position: absolute;
+        right: 0px;
+        top: -50px;
+    }
+
+    #term-open4work {
+        position: absolute;
+        bottom: -25px;
+        left: 20px;
+    }
+
+    #music h6 {
+        align-self: center;
+        font-size: .3em;
     }
 }

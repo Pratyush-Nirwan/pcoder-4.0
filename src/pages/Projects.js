@@ -1,8 +1,8 @@
 import React, { useState, useEffect } from "react";
-import projectData from '../../assets/data/projects.json'
-import archiveData from '../../assets/data/archive.json'
+import projectData from '../assets/data/projects.json';
+import archiveData from '../assets/data/archive.json';
 import { Link, useNavigate } from "react-router-dom";
-import '../../css/Projects.css'
+import '../css/Projects.css';
 
 const setCookie = (cname, cvalue, exhours) => {
     const d = new Date();
@@ -111,11 +111,11 @@ const Projects = () => {
     useEffect(() => {
         const cookie = getCookie('selected');
         console.log(cookie)
-        if (cookie == 'projects') {
+        if (cookie === 'projects') {
             setTimeout(() => {
                 setSelected('projects')
             }, 300);
-        } else if (cookie == 'archive') {
+        } else if (cookie === 'archive') {
             setTimeout(() => {
                 setSelected('archive')
             }, 300);

@@ -92,3 +92,57 @@
     padding-left: 6px;
     padding-right: 6px;
 }
+
+
+@media only screen and (max-width: 600px) {
+    #projects-list-div {
+        height: 60%;
+        width: 80%;
+    }
+
+    .project,
+    .archiveItem {
+        font-size: .5em;
+    }
+
+
+    .project:hover,
+    .archiveItem:hover {
+        background: unset;
+        border: unset;
+    }
+
+    .project h1,
+    .archiveItem h1 {
+        text-align: left;
+    }
+
+    .archiveItem {
+        align-items: center;
+    }
+
+    .tags {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 5px;
+        font-size: 1.2em;
+    }
+
+    #projects-title,
+    #archive-title {
+        font-size: .8em;
+    }
+
+    #projects-title.selected-title,
+    #archive-title.selected-title {
+        font-size: 1.5em;
+    }
+
+    #project-title {
+        font-size: 2em;
+    }
+
+    .tag {
+        font-size: .8em;
+    }
+}

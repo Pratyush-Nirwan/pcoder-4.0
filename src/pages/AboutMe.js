@@ -1,10 +1,10 @@
 import React, { useState, useEffect } from "react";
-import photo from "../../assets/my-photo.svg";
+import photo from "../assets/my-photo.svg";
 import { FaRegCircle } from "react-icons/fa";
 import { FaMotorcycle, FaHeadphones, FaCamera, FaPen, FaCode, FaGamepad, FaCircle } from "react-icons/fa6";
 import { MdOutlineVideoSettings } from "react-icons/md";
 import { IoPlanet } from "react-icons/io5";
-import '../../css/AboutMe.css'
+import '../css/AboutMe.css'
 
 const intrestArrTop = ["MOTOCYCLING", "MUSIC", "PHOTOGRAPHY", "VIDEO EDITING"];
 const intrestArrBottom = ["GRAPHICS", "CODING", "ASTRONOMY", "GAMING"];
@@ -62,44 +62,10 @@ const Age = () => {
     return (ageInDays);
 }
 
-
-const TouchingElementsMonitor = () => {
-    useEffect(() => {
-        const timeEl = document.getElementById('time');
-        const pageEl = document.getElementById('about-me-page');
-
-        const checkTouching = () => {
-            const rect1 = timeEl.getBoundingClientRect();
-            const rect2 = pageEl.getBoundingClientRect();
-
-            if (
-                rect1.top <= rect2.bottom &&
-                rect1.bottom >= rect2.top &&
-                rect1.left <= rect2.right &&
-                rect1.right >= rect2.left
-            ) {
-                timeEl.style.opacity = 0;
-            }
-
-            else {
-                timeEl.style.opacity = 1;
-            }
-        };
-
-        const intervalId = setInterval(checkTouching, 100);
-
-        return () => clearInterval(intervalId);
-    }, []);
-
-    return null;
-
-};
-
 const AboutMe = () => {
 
     return (
         <>
-            <TouchingElementsMonitor />
             <div id="about-me-page">
                 <div id="about-me-grid">
                     <h1 className="title" id="about-me-title">ABOUT ME</h1>
@@ -152,8 +118,8 @@ const AboutMe = () => {
                     </div>
                 </div>
                 <div id="roadmap">
-                    <div>
-                        <FaCircle />
+                    <div className="milestone" >
+                        <FaCircle className="roadmap-dot" />
                         <div className="rightSide">
                             <h2 className="title roadmap-year">2021</h2>
                             <h3 className="title">Started Studying in college</h3>
@@ -161,9 +127,9 @@ const AboutMe = () => {
                         </div>
                     </div>
                     <hr className="normal-hr" />
-                    <div>
-                        <FaCircle id="latest-circle" />
-                        <FaRegCircle id="latest" />
+                    <div className="milestone">
+                        <FaCircle id="latest-circle" className="roadmap-dot" />
+                        <FaRegCircle id="latest" roadmap-dot />
                         <div className="leftSide">
                             <h2 className="title roadmap-year">2024</h2>
                             <h3 className="title">Started Freelancing</h3>

@@ -1,11 +1,11 @@
 import React, { useState, useEffect } from "react";
 import { Divide as Hamburger } from 'hamburger-react'
-import { FaLinkedinIn, FaInstagram } from "react-icons/fa";
+import { FaLinkedinIn, FaInstagram, FaDev } from "react-icons/fa";
 import { MdOutlineEmail } from "react-icons/md";
 import { FaXTwitter } from "react-icons/fa6";
 import { FiGithub } from "react-icons/fi";
-import { Link, Route, Routes } from "react-router-dom";
-
+import { Link } from "react-router-dom";
+import Time from '../../components/others/Time'
 const MenuBtn = ({ isOpen, setOpen }) => {
     let pageBody, menu;
     useEffect(() => {
@@ -14,7 +14,8 @@ const MenuBtn = ({ isOpen, setOpen }) => {
     })
     let hideMenu, showMenu;
     return (
-        <>
+        <div id="header">
+            <Time />
             <div id="menu-icon">
                 <Hamburger
                     size={30}
@@ -42,7 +43,7 @@ const MenuBtn = ({ isOpen, setOpen }) => {
                     }}
                 />
             </div>
-        </>
+        </div>
     )
 }
 
@@ -101,6 +102,9 @@ const Menu = () => {
                     </a>
                     <a href="https://github.com/Pratyush-Nirwan/" target="_blank">
                         <FiGithub />
+                    </a>
+                    <a href='https://dev.to/pratyushnirwan/' target="_blank">
+                        <FaDev />
                     </a>
                 </div>
             </div >

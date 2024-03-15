@@ -5,7 +5,7 @@ import App from './App';
 import reportWebVitals from './reportWebVitals';
 import { BrowserRouter } from 'react-router-dom'
 import { MeshGradientRenderer } from '@johnn-e/react-mesh-gradient';
-import Loading from './components/Loading';
+import Loading from './components/others/Loading';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(

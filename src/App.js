@@ -1,23 +1,19 @@
-
 import './App.css';
-import { MeshGradientRenderer } from '@johnn-e/react-mesh-gradient';
-import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
-import HomePage from './components/pages/HomePage';
-import AboutMe from './components/pages/AboutMe';
-import Projects from './components/pages/Projects';
-import Blogs from './components/pages/Blogs';
-import Time from './components/Time';
-import Menu from './components/Menu';
+import { Route, Routes } from 'react-router-dom';
+import HomePage from './pages/HomePage';
+import AboutMe from './pages/AboutMe';
+import Projects from './pages/Projects';
+import Blogs from './pages/Blogs';
+import Menu from './components/others/Menu';
 import AdviceTicket from './components/projects/AdviceTicket';
 import EncryptDerypt from './components/projects/EnryptDecrypt';
 import WeatherWebsite from './components/projects/WeatherWebsite';
-import { V1, V2, V3 } from './components/Versions'
+import { V1, V2, V3 } from './components/others/Versions';
 
 function App() {
 
   return (
     <div className='container'>
-      <Time />
       <div id='page-body'>
         <Routes>
           <Route path="/" element={<HomePage />} />
