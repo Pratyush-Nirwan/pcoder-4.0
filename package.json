@@ -1,6 +1,6 @@
 {
-  "name": "pcoder-4.0",
-  "version": "0.1.0",
+  "name": "pcoder",
+  "version": "4.0.0",
   "private": true,
   "dependencies": {
     "@johnn-e/react-mesh-gradient": "^1.1.1",
