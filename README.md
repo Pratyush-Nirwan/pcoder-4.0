@@ -1,5 +1,5 @@
 # My Portfolio Website 🌐
-![website screenshot](/src/assets/projects/weatherWebsite.png)
+![website screenshot](/src/assets/projects/pcoder.png)
 Welcome to my portfolio website! This is the central hub where you can explore my work, read my blogs, and connect with me on various social platforms.
 
 ## Features
