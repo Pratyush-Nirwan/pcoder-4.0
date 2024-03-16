@@ -51,7 +51,7 @@ const Loading = () => {
                 }, 300);
             }, 3100);
         }
-    })
+    }, [])
     return (
         <>
             <img src={photo} alt='' id="loading-photo" />

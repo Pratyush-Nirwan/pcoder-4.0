@@ -17,11 +17,11 @@ function WeatherWebsite() {
             <div id='project-text'>
                 <h1 className='title' id='project-title'>WEATHER WEBSITE</h1>
                 <div id='tag-list' className='text'>
-                    <p className='tag'>WEB DEVELOPMENT</p>
-                    <p className='tag'>OPEN WEATHER API</p>
+                    <p className='project-tag'>WEB DEVELOPMENT</p>
+                    <p className='project-tag'>OPEN WEATHER API</p>
                 </div>
 
-                <p className='text'>{desc.toUpperCase()}</p>
+                <p className='text' id='project-desc'>{desc.toUpperCase()}</p>
 
                 <h1 className='title' id='project-features-title'>FEATURES</h1>
                 <div id='features-links'>

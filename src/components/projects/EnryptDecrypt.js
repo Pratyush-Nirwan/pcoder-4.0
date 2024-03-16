@@ -13,11 +13,11 @@ function EncryptDerypt() {
             <div id='project-text'>
                 <h1 className='title' id='project-title'>ENCRYPT DECRYPT</h1>
                 <div id='tag-list' className='text'>
-                    <p className='tag'>WEB DEVELOPMENT</p>
-                    <p className='tag'>CRYPTO JS</p>
+                    <p className='project-tag'>WEB DEVELOPMENT</p>
+                    <p className='project-tag'>CRYPTO JS</p>
                 </div>
 
-                <p className='text'>{desc.toUpperCase()}</p>
+                <p className='text' id='project-desc'>{desc.toUpperCase()}</p>
 
                 <h1 className='title' id='project-features-title'>FEATURES</h1>
                 <div id='features-links'>

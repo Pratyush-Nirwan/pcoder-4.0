@@ -18,7 +18,7 @@ function AdviceTicket() {
                     <p className='project-tag'>GOQR.ME</p>
                 </div>
 
-                <p className='text'>{desc.toUpperCase()}</p>
+                <p className='text' id='project-desc'>{desc.toUpperCase()}</p>
 
                 <h1 className='title' id='project-features-title'>FEATURES</h1>
                 <div id='features-links'>
