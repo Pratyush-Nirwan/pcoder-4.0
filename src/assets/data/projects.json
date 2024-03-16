@@ -38,11 +38,12 @@
             "name": "Pcoder.me",
             "tags": [
                 "web development",
-                "graphics design",
+                "React.js",
                 "portfolio",
-                "dev.to api"
+                "dev.to api",
+                "audioscrobbler api"
             ],
-            "path": "pcoder.me",
+            "path": "pcoder",
             "github_link": "https://github.com/Pratyush-Nirwan/Pratyush-Nirwan.github.io"
         }
     ]

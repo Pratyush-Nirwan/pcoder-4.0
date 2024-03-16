@@ -8,10 +8,10 @@ import Menu from './components/others/Menu';
 import AdviceTicket from './components/projects/AdviceTicket';
 import EncryptDerypt from './components/projects/EnryptDecrypt';
 import WeatherWebsite from './components/projects/WeatherWebsite';
+import Pcoder from './components/projects/Pcoder';
 import { V1, V2, V3 } from './components/others/Versions';
 
 function App() {
-
   return (
     <div className='container'>
       <div id='page-body'>
@@ -23,6 +23,7 @@ function App() {
           <Route path='/projects/advice-ticket' element={<AdviceTicket />} />
           <Route path='/projects/encryptdecrypt' element={<EncryptDerypt />} />
           <Route path='/projects/weather-website' element={<WeatherWebsite />} />
+          <Route path='/projects/pcoder' element={<Pcoder />} />
           <Route path='/projects/archive/v1.0' element={<V1 />} />
           <Route path='/projects/archive/v2.0' element={<V2 />} />
           <Route path='/projects/archive/v3.0' element={<V3 />} />

@@ -53,8 +53,8 @@ const ProjectList = () => {
                 <Link className="project title" key={project.key} onClick={() => handleItemClick('/projects/' + project.path)}>
                     <h1>{project.name.toUpperCase()}</h1>
                     <div className="tags">
-                        {project.tags.map(tag => (
-                            <p className="tag text ls-1">{tag.toUpperCase()}</p>
+                        {project.tags.map((tag, index) => (
+                            <p className="tag text ls-1" key={index}>{tag.toUpperCase()}</p>
                         ))}
                     </div>
                 </Link >
@@ -110,7 +110,6 @@ const Projects = () => {
 
     useEffect(() => {
         const cookie = getCookie('selected');
-        console.log(cookie)
         if (cookie === 'projects') {
             setTimeout(() => {
                 setSelected('projects')

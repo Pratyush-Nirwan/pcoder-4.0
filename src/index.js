@@ -8,7 +8,10 @@ import { MeshGradientRenderer } from '@johnn-e/react-mesh-gradient';
 import Loading from './components/others/Loading';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
+console.log.apply(console, ["%c Designed and Coded by Pratyush Nirwan ", "color: black; background: #ff6600; padding:5px 0; border-radius: 5px; font-weight: bold",]);
+
 root.render(
+
 
   <React.StrictMode>
     <BrowserRouter>
