@@ -3,6 +3,7 @@ import projectData from '../assets/data/projects.json';
 import archiveData from '../assets/data/archive.json';
 import { Link, useNavigate } from "react-router-dom";
 import '../css/Projects.css';
+import { Helmet, HelmetProvider } from "react-helmet-async";
 
 const setCookie = (cname, cvalue, exhours) => {
     const d = new Date();
@@ -49,6 +50,13 @@ const ProjectList = () => {
 
     return (
         <>
+            <HelmetProvider>
+                <Helmet>
+                    <meta name="title" content="Pratyush Nirwan" />
+                    <meta name="description"
+                        content=" " />
+                </Helmet>
+            </HelmetProvider>
             {projectData.projects.map(project => (
                 <Link className="project title" key={project.key} onClick={() => handleItemClick('/projects/' + project.path)}>
                     <h1>{project.name.toUpperCase()}</h1>

@@ -5,7 +5,7 @@ import { FaMotorcycle, FaHeadphones, FaCamera, FaPen, FaCode, FaGamepad, FaCircl
 import { MdOutlineVideoSettings } from "react-icons/md";
 import { IoPlanet } from "react-icons/io5";
 import '../css/AboutMe.css'
-
+import { Helmet, HelmetProvider } from "react-helmet-async";
 const intrestArrTop = ["MOTOCYCLING", "MUSIC", "PHOTOGRAPHY", "VIDEO EDITING"];
 const intrestArrBottom = ["GRAPHICS", "CODING", "ASTRONOMY", "GAMING"];
 const languageArr = [["en-US", "ENGLISH"], ["en-IN", "ENGLISH"], ["hi-IN", "HINDI"], ["mr-IN", "MARATHI"]];
@@ -66,6 +66,13 @@ const AboutMe = () => {
 
     return (
         <>
+            <HelmetProvider>
+                <Helmet>
+                    <meta name="title" content="Pratyush Nirwan" />
+                    <meta name="description"
+                        content=" " />
+                </Helmet>
+            </HelmetProvider>
             <div id="about-me-page">
                 <div id="about-me-grid">
                     <h1 className="title" id="about-me-title">ABOUT ME</h1>

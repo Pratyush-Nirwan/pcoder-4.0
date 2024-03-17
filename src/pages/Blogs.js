@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from "react";
-import '../css/Blogs.css'
+import '../css/Blogs.css';
+import { Helmet, HelmetProvider } from "react-helmet-async";
 const Blogs = () => {
     const [blogs, setBlogs] = useState([]);
 
@@ -28,6 +29,13 @@ const Blogs = () => {
 
     return (
         <div id="blogs-main-div">
+            <HelmetProvider>
+                <Helmet>
+                    <meta name="title" content="Pratyush Nirwan" />
+                    <meta name="description"
+                        content=" " />
+                </Helmet>
+            </HelmetProvider>
             <div id="recent-blog-div">
                 <h1 className="title" id="main-blog-title">BLOGS</h1>
                 {mostRecentBlog && (
