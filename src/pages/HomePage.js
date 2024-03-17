@@ -72,6 +72,7 @@ const HomePage = () => {
             <HelmetProvider>
                 <Helmet>
                     <meta name="title" content="PCODER // Pratyush Nirwan" />
+                    <meta property="og:site_name" content="Pratyush Nirwan" />
                     <meta name="description"
                         content="Pratyush Nirwan is a Front-End Developer, Graphics Designer. Believing in hands-on experiences, eagerly sharing his knowledge with others." />
 
