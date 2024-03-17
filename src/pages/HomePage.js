@@ -71,21 +71,21 @@ const HomePage = () => {
         <>
             <HelmetProvider>
                 <Helmet>
-                    <meta name="title" content="PCODER // Pratyush Nirwan" />
-                    <meta property="og:site_name" content="Pratyush Nirwan" />
+                    <meta name="title" content="Pratyush Nirwan" />
+                    <meta property="og:site_name" content="PCODER" />
                     <meta name="description"
                         content="Pratyush Nirwan is a Front-End Developer, Graphics Designer. Believing in hands-on experiences, eagerly sharing his knowledge with others." />
 
                     <meta property="og:type" content="website" />
                     <meta property="og:url" content="https://pcoder.me/" />
-                    <meta property="og:title" content="PCODER // Pratyush Nirwan" />
+                    <meta property="og:title" content="Pratyush Nirwan" />
                     <meta property="og:description"
                         content="Pratyush Nirwan is a Front-End Developer, Graphics Designer. Believing in hands-on experiences, eagerly sharing his knowledge with others." />
                     <meta property="og:image" content="meta_img.png" />
 
                     <meta property="twitter:card" content="summary_large_image" />
                     <meta property="twitter:url" content="https://pcoder.me" />
-                    <meta property="twitter:title" content="PCODER // Pratyush Nirwan" />
+                    <meta property="twitter:title" content="Pratyush Nirwan" />
                     <meta property="twitter:description"
                         content="Pratyush Nirwan is a Front-End Developer, Graphics Designer. Believing in hands-on experiences, eagerly sharing his knowledge with others." />
                     <meta property="twitter:image" content="metadata_img.png" />
