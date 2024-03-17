@@ -129,7 +129,7 @@ const AboutMe = () => {
                     <hr className="normal-hr" />
                     <div className="milestone">
                         <FaCircle id="latest-circle" className="roadmap-dot" />
-                        <FaRegCircle id="latest" roadmap-dot />
+                        <FaRegCircle id="latest" />
                         <div className="leftSide">
                             <h2 className="title roadmap-year">2024</h2>
                             <h3 className="title">Started Freelancing</h3>

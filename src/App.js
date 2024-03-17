@@ -10,6 +10,7 @@ import EncryptDerypt from './components/projects/EnryptDecrypt';
 import WeatherWebsite from './components/projects/WeatherWebsite';
 import Pcoder from './components/projects/Pcoder';
 import { V1, V2, V3 } from './components/others/Versions';
+import { Helmet, HelmetProvider } from 'react-helmet-async';
 
 function App() {
   return (
