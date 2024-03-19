@@ -54,7 +54,7 @@ const ProjectList = () => {
                 <Helmet>
                     <meta name="title" content="Pratyush Nirwan" />
                     <meta name="description"
-                        content=" " />
+                        content="Innovate, Create and Inspire" />
                 </Helmet>
             </HelmetProvider>
             {projectData.projects.map(project => (
