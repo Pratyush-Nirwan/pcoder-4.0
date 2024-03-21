@@ -70,7 +70,7 @@ const AboutMe = () => {
                 <Helmet>
                     <meta name="title" content="Pratyush Nirwan" />
                     <meta name="description"
-                        content="Who am I?" />
+                        content="Get to know the person behind this website - delve into Pratyush's background, interests, and passions." />
                 </Helmet>
             </HelmetProvider>
             <div id="about-me-page">
