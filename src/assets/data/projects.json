@@ -10,7 +10,7 @@
             ],
             "path": "advice-ticket",
             "github_link": "https://github.com/Pratyush-Nirwan/AdviceTicket",
-            "demo_link": "https://pcoder.me/AdviceTicket"
+            "demo_link": "https://pratyush-nirwan.github.io/AdviceTicket"
         },
         {
             "key": 1,
@@ -21,7 +21,7 @@
             ],
             "path": "encryptdecrypt",
             "github_link": "https://github.com/Pratyush-Nirwan/EncryptDecrypt",
-            "demo_link": "https://pcoder.me/EncryptDecrypt"
+            "demo_link": "https://pratyush-nirwan.github.io/EncryptDecrypt"
         },
         {
             "key": 2,
@@ -31,7 +31,8 @@
                 "open weather api"
             ],
             "path": "weather-website",
-            "github_link": "https://github.com/Pratyush-Nirwan/weather-website"
+            "github_link": "https://github.com/Pratyush-Nirwan/weather-website",
+            "demo_link": "https://pratyush-nirwan.github.io/weather-website/"
         },
         {
             "key": 3,

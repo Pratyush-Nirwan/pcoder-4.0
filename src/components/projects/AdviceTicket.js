@@ -29,7 +29,7 @@ function AdviceTicket() {
                         </p>
                     </div>
                     <div id='project-links'>
-                        <FaExternalLinkAlt className='link' onClick={() => href('https://pcoder.me/AdviceTicket/')} />
+                        <FaExternalLinkAlt className='link' onClick={() => href('https://pratyush-nirwan.github.io/AdviceTicket/')} />
                         <FaGithub className='link' onClick={() => href('https://github.com/Pratyush-Nirwan/AdviceTicket')} />
                     </div>
                 </div>

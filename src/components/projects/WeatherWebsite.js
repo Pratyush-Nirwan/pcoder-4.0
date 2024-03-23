@@ -32,7 +32,7 @@ function WeatherWebsite() {
                         </p>
                     </div>
                     <div id='project-links'>
-                        <FaExternalLinkAlt className='link' onClick={() => href('https://pcoder.me/weather-website/')} />
+                        <FaExternalLinkAlt className='link' onClick={() => href('https://pratyush-nirwan.github.io/weather-website/')} />
                         <FaGithub className='link' onClick={() => href('https://github.com/Pratyush-Nirwan/weather-website')} />
                     </div>
                 </div>

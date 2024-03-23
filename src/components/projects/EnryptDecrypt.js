@@ -29,7 +29,7 @@ function EncryptDerypt() {
                         </p>
                     </div>
                     <div id='project-links'>
-                        <FaExternalLinkAlt className='link' onClick={() => href('https://pcoder.me/EncryptDecrypt/')} />
+                        <FaExternalLinkAlt className='link' onClick={() => href('https://pratyush-nirwan.github.io/EncryptDecrypt/')} />
                         <FaGithub className='link' onClick={() => href('https://github.com/Pratyush-Nirwan/EncryptDecrypt')} />
                     </div>
                 </div>

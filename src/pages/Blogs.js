@@ -33,7 +33,7 @@ const Blogs = () => {
                 <Helmet>
                     <meta name="title" content="Pratyush Nirwan" />
                     <meta name="description"
-                        content="Dive into Pratyush's thoughtful writings, where you'll find articles, thoughts, and ideas on different subjects. They're chosen to teach, entertain, and motivate you." />
+                        content="Explore a world where coding meets comedy! Dive into my blog filled with hilarious anecdotes and fascinating insights into the world of programming. Laugh, learn, and level up your coding skills with me today!" />
                 </Helmet>
             </HelmetProvider>
             <div id="recent-blog-div">
