@@ -14,8 +14,8 @@ function AdviceTicket() {
                 <h1 className='title' id='project-title'>ADVICE TICKET</h1>
                 <div id='tag-list' className='text'>
                     <p className='project-tag'>WEB DEVELOPMENT</p>
+                    <p className='project-tag'>REACT.JS</p>
                     <p className='project-tag'>ADVICE SLIP JSON API</p>
-                    <p className='project-tag'>GOQR.ME</p>
                 </div>
 
                 <p className='text' id='project-desc'>{desc.toUpperCase()}</p>
@@ -29,7 +29,7 @@ function AdviceTicket() {
                         </p>
                     </div>
                     <div id='project-links'>
-                        <FaExternalLinkAlt className='link' onClick={() => href('https://pratyush-nirwan.github.io/AdviceTicket/')} />
+                        <FaExternalLinkAlt className='link' onClick={() => href('https://advice-ticket.vercel.app')} />
                         <FaGithub className='link' onClick={() => href('https://github.com/Pratyush-Nirwan/AdviceTicket')} />
                     </div>
                 </div>

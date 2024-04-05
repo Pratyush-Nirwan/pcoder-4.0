@@ -5,12 +5,12 @@
             "name": "Advice Ticket",
             "tags": [
                 "web development",
-                "advice slip json api",
-                "goqr.me"
+                "react.js",
+                "advice slip json api"
             ],
             "path": "advice-ticket",
             "github_link": "https://github.com/Pratyush-Nirwan/AdviceTicket",
-            "demo_link": "https://pratyush-nirwan.github.io/AdviceTicket"
+            "demo_link": "https://advice-ticket.vercel.app/advice"
         },
         {
             "key": 1,

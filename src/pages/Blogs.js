@@ -24,7 +24,6 @@ const Blogs = () => {
         window.open(url, "_blank");
     }
 
-    // Extract the most recent blog from the array
     const [mostRecentBlog, ...otherBlogs] = blogs;
 
     return (
@@ -53,7 +52,6 @@ const Blogs = () => {
                 )}
             </div>
             <div id="other-blogs-div">
-                {/* Map through other blogs and display them */}
                 {otherBlogs.map(blog => (
                     <div className="other-blog" key={blog.id} onClick={() => href(blog.url)}>
                         <h2 className="title other-blog-title" >{blog.title.toUpperCase()}</h2>
