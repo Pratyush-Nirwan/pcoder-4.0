@@ -22,7 +22,7 @@ export const V2 = () => {
 export const V3 = () => {
     return (
         <>
-            <iframe title="web-iframe" id='web-iframe' src="https://pratyush-nirwan.github.io/pcoder-2.0/">
+            <iframe title="web-iframe" id='web-iframe' src="https://pratyush-nirwan.github.io/pcoder-3.0/">
             </iframe>
         </>
     )
